@@ -64,6 +64,22 @@ body{
     border: none;
     cursor: pointer;
 }
+.btn-2{
+    font-size: 18px;
+    border: none;
+    margin-left: 1200px;
+    margin-top: 20px;
+    color: #E02C6D;
+    cursor: pointer;
+}
+.btn-3{
+   background-color: #E02C6D;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer; 
+    font-size: 16px; 
+}
 .sponcer{
     width: 1000px;
     margin-left: 250px;
@@ -96,4 +112,27 @@ padding-bottom: 30px;
     box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.464);
    margin-bottom: -0px;
    background-color: white;
+}
+
+.gear{
+    display: flex;
+    margin-left: 230px;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+.gear-contain{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.footer{
+    height: 230px;
+    width: 1500px;
+    background-color:#0A0826 ;
+    margin-top: 50px;
+}
+.footer-contain{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
 }
