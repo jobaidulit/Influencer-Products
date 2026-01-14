@@ -5,7 +5,7 @@ body{
 .header{
     background-color: #ffffff;
     max-width: 1300px;
-    margin: 80px 100px 0px 100px;
+    margin: 50px 100px 0px 100px;
     display: flex;
     justify-content: center;
     gap: 700px;
@@ -136,3 +136,54 @@ padding-bottom: 30px;
     text-align: center;
     padding-top: 50px;
 }
+
+
+@media screen and (max-width:576px){
+   .footer-contain{
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.header{
+
+    max-width: 700px;
+    margin: 50px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.banner{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    display: flex;
+}
+.banner-contain{
+    width: 414px;
+    height: 222px;
+    margin-top: 50px;
+}
+.banner-contain h1{
+    font-size: 30px;
+    color: #3a3a3a;
+    
+}
+.products{
+    display: grid;
+    gap: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    grid-template-columns: repeat(1, 1fr);
+  justify-content: space-between;
+  padding: 0px 0px 0px 0px;
+
+}
+.banner-img{
+    width: 140px;
+    height: 114px;
+    background-image: url(images/Circle\ design.svg);
+    margin-left: 0px;
+}
+
+}
+
