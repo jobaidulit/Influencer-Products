@@ -64,3 +64,15 @@ body{
     border: none;
     cursor: pointer;
 }
+.sponcer{
+    width: 1000px;
+    margin-left: 170px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+  padding-top: 30px;
+  gap: 40px;
+  margin-top: 50px;
+margin-bottom: 50px;
+padding-bottom: 30px;
+}
