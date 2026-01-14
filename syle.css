@@ -21,7 +21,7 @@ body{
     font-weight: bold;
     font-style: poppins;
     color: #3a3a3a;  
-    text-align: center;
+    
 }
 
 .menu-1{
@@ -30,4 +30,37 @@ body{
 }
 .menu-1 li{
     list-style-type: none;
+}
+
+.banner{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    display: flex;
+}
+
+.banner-contain{
+    width: 582px;
+    height: 270px;
+    margin-top: 50px;
+}
+.banner-contain h1{
+    font-size: 50px;
+    color: #3a3a3a;
+    font-weight: 600px;
+}
+
+.banner-img{
+    width: 440px;
+    height: 414px;
+    background-image: url(images/Circle\ design.svg);
+    margin-left: 220px;
+}
+.btn{
+    background-color: #E02C6D;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
 }
