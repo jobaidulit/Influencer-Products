@@ -146,11 +146,11 @@ padding-bottom: 30px;
 }
 .header{
 
-    max-width: 700px;
-    margin: 50px 100px 0px 100px;
+    max-width: 56px;
+    margin: 0px 0px 0px 0px;
     display: flex;
-    justify-content: center;
-    gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 .banner{
     margin-left: 0px;
