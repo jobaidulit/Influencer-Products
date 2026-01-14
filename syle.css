@@ -1,0 +1,33 @@
+body{
+    background-color: #ffffff;
+}
+
+.header{
+    background-color: #ffffff;
+    max-width: 1300px;
+    margin: 80px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+}
+
+.header-logo{
+    width: 243px;
+    height: 52.2px;
+}
+
+.header-logo h2{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: poppins;
+    color: #3a3a3a;  
+    text-align: center;
+}
+
+.menu-1{
+    display: flex;
+    gap: 30px;
+}
+.menu-1 li{
+    list-style-type: none;
+}
